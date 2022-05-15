@@ -1,1 +1,18 @@
-<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1492512737788" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6045" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"><defs><style type="text/css"></style></defs><path d="M258.875 439.513c-46.519 0-84.375 37.856-84.375 84.375s37.856 84.375 84.375 84.375c46.519 0 84.375-37.856 84.375-84.375s-37.856-84.375-84.375-84.375zM512 439.513c-46.519 0-84.375 37.856-84.375 84.375s37.856 84.375 84.375 84.375c46.519 0 84.375-37.856 84.375-84.375s-37.856-84.375-84.375-84.375zM765.125 439.513c-46.519 0-84.375 37.856-84.375 84.375s37.856 84.375 84.375 84.375c46.519 0 84.375-37.856 84.375-84.375s-37.856-84.375-84.375-84.375z" p-id="6046" fill="#999999"></path></svg>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="136px" height="61px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter x="118px" y="303px" width="136px" height="61px" filterUnits="userSpaceOnUse" id="filter144">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="2.5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.349019607843137 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget145">
+      <path d="M 123 318  A 10 10 0 0 1 133 308 L 239 308  A 10 10 0 0 1 249 318 L 249 349  A 10 10 0 0 1 239 359 L 133 359  A 10 10 0 0 1 123 349 L 123 318  Z " fill-rule="nonzero" fill="#eeb834" stroke="none" fill-opacity="0.498039215686275" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -118 -303 )">
+    <use xlink:href="#widget145" filter="url(#filter144)" />
+    <use xlink:href="#widget145" />
+  </g>
+</svg>
