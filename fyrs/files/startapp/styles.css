@@ -66,7 +66,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑', sans-serif;
+  font-family:'微软雅黑 Bold', '微软雅黑', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -81,7 +81,7 @@
   width:374px;
   height:34px;
   display:flex;
-  font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑', sans-serif;
+  font-family:'微软雅黑 Bold', '微软雅黑', sans-serif;
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -130,37 +130,7 @@
   text-transform:none;
   visibility:hidden;
 }
-#u3_img {
-  border-width:0px;
-  position:absolute;
-  left:0px;
-  top:0px;
-  width:80px;
-  height:80px;
-}
-#u3 {
-  border-width:0px;
-  position:absolute;
-  left:147px;
-  top:127px;
-  width:80px;
-  height:80px;
-  display:flex;
-}
-#u3 .text {
-  position:absolute;
-  align-self:center;
-  padding:2px 2px 2px 2px;
-  box-sizing:border-box;
-  width:100%;
-}
-#u3_text {
-  border-width:0px;
-  word-wrap:break-word;
-  text-transform:none;
-  visibility:hidden;
-}
-#u4_div {
+#u3_div {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -182,7 +152,7 @@
   text-align:center;
   line-height:28px;
 }
-#u4 {
+#u3 {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -198,10 +168,44 @@
   text-align:center;
   line-height:28px;
 }
-#u4 .text {
+#u3 .text {
   position:absolute;
   align-self:flex-start;
   padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u3_text {
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+#u4_img {
+  border-width:0px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:80px;
+  height:80px;
+}
+#u4 {
+  border-width:0px;
+  position:absolute;
+  left:147px;
+  top:128px;
+  width:80px;
+  height:80px;
+  display:flex;
+  font-family:'FontAwesome Bold', 'FontAwesome Regular', 'FontAwesome', sans-serif;
+  font-weight:700;
+  font-style:normal;
+  font-size:150px;
+  color:#CCCCCC;
+}
+#u4 .text {
+  position:absolute;
+  align-self:center;
+  padding:2px 2px 2px 2px;
   box-sizing:border-box;
   width:100%;
 }
@@ -209,6 +213,7 @@
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
+  visibility:hidden;
 }
 #u0_state1 {
   border-width:0px;
