@@ -395,7 +395,6 @@
   font-weight:400;
   font-style:normal;
   font-size:12px;
-  color:#EEB834;
   text-align:left;
   line-height:24px;
 }
@@ -411,7 +410,6 @@
   font-weight:400;
   font-style:normal;
   font-size:12px;
-  color:#EEB834;
   text-align:left;
   line-height:24px;
 }
@@ -897,7 +895,6 @@
   font-weight:400;
   font-style:normal;
   font-size:12px;
-  color:#EEB834;
   text-align:left;
   line-height:24px;
 }
@@ -913,7 +910,6 @@
   font-weight:400;
   font-style:normal;
   font-size:12px;
-  color:#EEB834;
   text-align:left;
   line-height:24px;
 }
@@ -1497,8 +1493,8 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:228px;
-  height:45px;
+  width:76px;
+  height:46px;
   background:inherit;
   background-color:rgba(255, 255, 255, 1);
   box-sizing:border-box;
@@ -1524,10 +1520,10 @@
 #u1591 {
   border-width:0px;
   position:absolute;
-  left:71px;
-  top:0px;
-  width:228px;
-  height:45px;
+  left:299px;
+  top:-1px;
+  width:76px;
+  height:46px;
   display:flex;
   font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑', sans-serif;
   font-weight:700;
@@ -1547,13 +1543,14 @@
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
+  visibility:hidden;
 }
 #u1592_div {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
-  width:76px;
+  width:228px;
   height:45px;
   background:inherit;
   background-color:rgba(255, 255, 255, 1);
@@ -1580,9 +1577,9 @@
 #u1592 {
   border-width:0px;
   position:absolute;
-  left:299px;
-  top:-1px;
-  width:76px;
+  left:71px;
+  top:0px;
+  width:228px;
   height:45px;
   display:flex;
   font-family:'微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑', sans-serif;
@@ -1603,7 +1600,6 @@
   border-width:0px;
   word-wrap:break-word;
   text-transform:none;
-  visibility:hidden;
 }
 #u1594 {
   border-width:0px;
