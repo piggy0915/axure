@@ -16,9 +16,9 @@ jobs:
           DST_TOKEN:  ${{ secrets.GITEE_TOKEN }}
       with:
           # 注意替换为你的 GitHub 源仓库地址
-          source-repo: "git@github.com:piggy0915/prototype.git"
+          source-repo: "git@github.com:piggy0915/axure.git"
           # 注意替换为你的 Gitee 目标仓库地址
-          destination-repo: "git@gitee.com:piggy0915/prototype.git"
+          destination-repo: "git@gitee.com:piggy0915/axure.git"
 
 
     - name: Build Gitee Pages
@@ -29,4 +29,4 @@ jobs:
           # 注意在 Settings->Secrets 配置 GITEE_PASSWORD
           gitee-password: ${{ secrets.GITEE_PASSWORD }}
           # 注意替换为你的 Gitee 仓库
-          gitee-repo: piggy0915/prototype
+          gitee-repo: piggy0915/axure
