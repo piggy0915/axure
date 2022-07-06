@@ -1,18 +1,1 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="187px" height="54px" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter x="26px" y="157px" width="187px" height="54px" filterUnits="userSpaceOnUse" id="filter80">
-      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
-      <feGaussianBlur stdDeviation="1.5" in="shadowOffsetInner" result="shadowGaussian" />
-      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
-      <feColorMatrix type="matrix" values="0 0 0 0 0.6  0 0 0 0 0.6  0 0 0 0 0.6  0 0 0 0.349019607843137 0  " in="shadowComposite" />
-    </filter>
-    <g id="widget81">
-      <path d="M 29 191.903763222398  C 29 191.903763222398  29 165  29 165  C 29 162.238576250846  31.238576250846 160  34 160  C 34 160  205 160  205 160  C 207.761423749154 160  210 162.238576250846  210 165  C 210 165  210 191.903763222398  210 191.903763222398  C 210 194.665186971552  207.761423749154 196.903763222398  205 196.903763222398  C 205 196.903763222398  184.207142857143 196.903763222398  184.207142857143 196.903763222398  C 184.207142857143 196.903763222398  173.411255411255 207.413043478261  173.411255411255 207.413043478261  C 173.411255411255 207.413043478261  161.207142857143 196.903763222398  161.207142857143 196.903763222398  C 161.207142857143 196.903763222398  34 196.903763222398  34 196.903763222398  C 31.238576250846 196.903763222398  29 194.665186971552  29 191.903763222398  Z " fill-rule="nonzero" fill="#eeb834" stroke="none" />
-    </g>
-  </defs>
-  <g transform="matrix(1 0 0 1 -26 -157 )">
-    <use xlink:href="#widget81" filter="url(#filter80)" />
-    <use xlink:href="#widget81" />
-  </g>
-</svg>
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1493375377087" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7330" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"><defs><style type="text/css"></style></defs><path d="M629.376 160 330.624 467.968 330.624 467.968 288 512 330.624 555.968 330.688 555.968 629.376 863.936 672 819.968 373.312 512 672 204.032Z" p-id="7331" fill="#ffffff"></path></svg>
